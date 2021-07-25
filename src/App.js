@@ -18,7 +18,7 @@ function App() {
     setTimeout(()=>{
       getPeople()
     },3000)
-  },[pageNumber])
+  },[people,pageNumber])
 
 
 
